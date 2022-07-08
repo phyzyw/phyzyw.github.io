@@ -1,10 +1,8 @@
 
-<div align='center' ><big><b><font size='200'>
-  寒鸦掠过乱云去，咫尺茫茫是醉乡！
-  <big><b></font></div>
-<div align='center' ><big><b><font size='200'>
-  一笑寂寥万古空，三分明月照大江。
- <big><b> </font></div>
+
+ ### 寒鸦掠过乱云去，咫尺茫茫是醉乡！
+ ### 一笑寂寥万古空，三分明月照大江。
+
 
   
   
