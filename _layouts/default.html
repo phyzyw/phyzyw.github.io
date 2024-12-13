@@ -1,14 +1,16 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <style>
+      .map-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 1000; /* 确保在其他元素之上 */
+      }
+    </style>
   </head>
 
   <body>
@@ -26,6 +28,10 @@ layout: compress
     </div>
 
     {% include scripts.html %}
-    <a href="https://clustrmaps.com/site/1c36y"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=HCeFxHJXuJkC-jbv_qfqnpFhm7Y9decm5UXAX0Q7PG4&cl=ffffff" /></a>
+    <div class="map-container">
+      <a href="https://clustrmaps.com/site/1c36y" title="Visit tracker">
+        <img src="//www.clustrmaps.com/map_v2.png?d=HCeFxHJXuJkC-jbv_qfqnpFhm7Y9decm5UXAX0Q7PG4&cl=ffffff" />
+      </a>
+    </div>
   </body>
 </html>
