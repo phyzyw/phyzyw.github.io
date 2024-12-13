@@ -13,8 +13,4 @@ I received the B.S. degree in Applied Physics from Beijing Institute of Technolo
 My research interests encompass Optimization, Statistics, and Computational Physics. Recently, I have been investigating generative AI, with a particular focus on explicit probabilistic models such as normalizing flows.
 
 ## Visitors
-<div class="map-container" style="text-align: center; width: 100%; max-width: 800px; margin: 0 auto;">
-  <a href="https://clustrmaps.com/site/1c36y" title="Visit tracker">
-    <img src="//www.clustrmaps.com/map_v2.png?d=HCeFxHJXuJkC-jbv_qfqnpFhm7Y9decm5UXAX0Q7PG4&cl=ffffff" style="width: 100%; height: auto;" />
-  </a>
-</div>
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=HCeFxHJXuJkC-jbv_qfqnpFhm7Y9decm5UXAX0Q7PG4"></script>
