@@ -1,0 +1,62 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+<div class="publications-list">
+  <h2>Publications List</h2>
+
+  <div class="publication-item">
+    <p>[3] S. Ren, K. Shen, <strong>Y. Zhang</strong>, X. Li, X. Chen and Z. -Q. Luo, 
+    "Configuring Intelligent Reflecting Surface with Performance Guarantees: Blind Beamforming," 
+    in <em>IEEE Transactions on Wireless Communications</em>, 2022. 
+    <a href="https://ieeexplore.ieee.org/abstract/document/9940989" target="_blank">[pdf]</a></p>
+  </div>
+
+  <div class="publication-item">
+    <p>[2] <strong>Y. Zhang</strong>, K. Shen, S. Ren, X. Li, X. Chen and Z. -Q. Luo, 
+    "Configuring Intelligent Reflecting Surface With Performance Guarantees: Optimal Beamforming," 
+    in <em>IEEE Journal of Selected Topics in Signal Processing</em>, vol. 16, no. 5, pp. 967-979, Aug. 2022. 
+    <a href="https://ieeexplore.ieee.org/abstract/document/9779545" target="_blank">[pdf]</a></p>
+  </div>
+
+  <div class="publication-item">
+    <p>[1] <strong>Y. Zhang</strong>, S. Ren, K. Shen and Z. -Q. Luo, 
+    "Optimal Discrete Beamforming for Intelligent Reflecting Surface," 
+    2021 IEEE Global Communications Conference (GLOBECOM), 2021, pp. 1-6. 
+    <a href="https://ieeexplore.ieee.org/abstract/document/9685790" target="_blank">[pdf]</a></p>
+  </div>
+</div>
+
+
+{% include base_path %}
+
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+
+
