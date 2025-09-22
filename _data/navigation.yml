@@ -20,8 +20,9 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: ‘arXiv Daily Summary"
+  - title: "Daily arXiv"
     url: "https://phyzyw.github.io/daily-arXiv-ai-enhanced/"
+    
   # - title: "CV"
   #   url: /cv/
     
