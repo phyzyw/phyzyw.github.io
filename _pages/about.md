@@ -12,6 +12,10 @@ I received the B.S. degree in Applied Physics from Beijing Institute of Technolo
 ## Research Interests
 My research interests encompass Optimization, Statistics, and Computational Physics. Recently, I have been investigating generative AI, with a particular focus on explicit probabilistic models such as normalizing flows.
 
+## Update
+
+**Feb 28, 2026**: I'm expected to graduate in 2027. At present, I'm looking for a research intern in Quant Research in Hong Kong 2026 or a remote reseach intern in AI4Science. I'm also looking for a posdoc postion about AI and biomolecular dynamics simulation. 
+
 
 
 
