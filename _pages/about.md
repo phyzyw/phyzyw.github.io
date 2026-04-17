@@ -16,7 +16,7 @@ My research interests encompass Optimization, Statistics, and Computational Phys
 
 ## Update
 
-**Feb 28, 2026**: I am expected to graduate in 2027 and am actively seeking a research internship in Quantitative Trading in Hong Kong for 2026, or a remote research internship in AI for Science. I am also interested in postdoctoral opportunities in AI applied to biomolecular dynamics simulations. If you are interested in my profile, please feel free to drop me an email.
+**March 28, 2026**: I am expected to graduate in 2027 spring. I am also interested in postdoctoral opportunities in AI4Scinece and Molecular dynamics simulations. If you are interested in my profile, please feel free to drop me an email.
 
 
 
