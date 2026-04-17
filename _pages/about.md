@@ -16,7 +16,7 @@ My research interests encompass Optimization, Statistics, and Computational Phys
 
 ## Update
 
-**March 28, 2026**: I am expected to graduate in 2027 spring. I am also interested in postdoctoral opportunities in AI4Scinece and Molecular dynamics simulations. If you are interested in my profile, please feel free to drop me an email.
+**Mar. 28, 2026**: I am expected to graduate in 2027 spring. I am also interested in postdoctoral opportunities in AI4Scinece and Molecular dynamics simulations. If you are interested in my profile, please feel free to drop me an email.
 
 
 
