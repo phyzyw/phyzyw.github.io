@@ -22,6 +22,9 @@ main:
     
   - title: "Daily arXiv"
     url: "https://phyzyw.github.io/daily-arXiv-ai-enhanced/"
+
+  - title: "Daily bioRxiv"
+    url: "https://phyzyw.github.io/daily-bioRxiv-ai-enhanced-/"
     
   # - title: "CV"
   #   url: /cv/
