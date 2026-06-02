@@ -28,7 +28,44 @@ My research interests encompass Optimization, Statistics, and Computational Phys
 
 
 
-<!-- ## Visitors -->
-<div class="map-container" style="text-align: center; width: 30%;  margin: 0 auto; position: relative;">
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=HCeFxHJXuJkC-jbv_qfqnpFhm7Y9decm5UXAX0Q7PG4"></script>
-</div>
+## Visitors
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<div id="visitor-map" style="height: 350px; width: 100%; margin: 0 auto; border-radius: 8px; overflow: hidden;"></div>
+<p style="text-align: center; font-size: 0.8em; color: #888;" id="visitor-count"></p>
+<script>
+(function() {
+  var WORKER_URL = "https://visitor-map.bitzhangyaowen.workers.dev";
+
+  fetch(WORKER_URL + "/visit", { method: "POST" }).catch(function(){});
+
+  fetch(WORKER_URL + "/visitors")
+    .then(function(r) { return r.json(); })
+    .then(function(visitors) {
+      document.getElementById("visitor-count").textContent = "Total visits: " + visitors.length;
+
+      var map = L.map("visitor-map").setView([20, 0], 2);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "&copy; OpenStreetMap contributors",
+        maxZoom: 18,
+      }).addTo(map);
+
+      var markers = L.markerClusterGroup
+        ? L.markerClusterGroup()
+        : L.layerGroup();
+
+      visitors.forEach(function(v) {
+        if (v.lat && v.lon) {
+          var m = L.marker([parseFloat(v.lat), parseFloat(v.lon)]);
+          m.bindPopup("<b>" + (v.city || "") + ", " + (v.country || "") + "</b><br>" + new Date(v.timestamp).toLocaleDateString());
+          markers.addLayer(m);
+        }
+      });
+
+      markers.addTo(map);
+    })
+    .catch(function(err) {
+      document.getElementById("visitor-count").textContent = "Map loading...";
+    });
+})();
+</script>
