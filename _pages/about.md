@@ -29,8 +29,6 @@ My research interests encompass Optimization, Statistics, and Computational Phys
 
 
 ## Visitors
-<div style="width: 30%; min-width: 280px; max-width: 100%; margin: 1.5rem auto 2rem auto; text-align: center; overflow: hidden;">
-  <a href="https://mapmyvisitors.com/web/1c9mk">
-    <img src="https://mapmyvisitors.com/map.png?d=yI191S7-GFOW0JcRGGOAYaefohHsCOrUzXYiVHY9CnY&amp;cl=ffffff" alt="View recent visitors">
-  </a>
+<div style="width: 40%; min-width: 280px; max-width: 100%; margin: 1.5rem auto 2rem auto; text-align: center; overflow: hidden;">
+  <script id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d=yI191S7-GFOW0JcRGGOAYaefohHsCOrUzXYiVHY9CnY"></script>
 </div>
