@@ -30,5 +30,5 @@ My research interests encompass Optimization, Statistics, and Computational Phys
 
 ## Visitors
 <div style="width: 30%; min-width: 280px; max-width: 100%; margin: 1.5rem auto 2rem auto; text-align: center; overflow: hidden;">
-<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=669LYo9vG3KDbBcPWmq6C2bs_iArzoRBrmeaDSDSoms"></script>
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=669LYo9vG3KDbBcPWmq6C2bs_iArzoRBrmeaDSDSoms&amp;cl=ffffff&amp;w=a"></script>
 </div>
